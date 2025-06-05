@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #56555f;
+    padding: 20px;
+    position: relative;
+}
+
+#header-text{
+    flex: 1;
+    text-align: center;
+    color: rgb(2, 2, 2);
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#language-toggle {
+    width: 50px; /* Ustalona szerokość */
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: none; /* Usunięcie domyślnego tła */
+}
+
+#flag-icon {
+    width: 100%;
+    height: 100%;
+}
