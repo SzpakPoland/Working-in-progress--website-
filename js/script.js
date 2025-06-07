@@ -1,12 +1,13 @@
-document.getElementById("language-toggle").addEventListener("click", function() {
-    let headerText = document.getElementById("header-text");
-    if (this.innerText === "EN") {
-        this.innerText = "PL";
-        headerText.innerText = "Website under construction";
-        sidebarKontakt.innerText = "Contact";
-    } else {
-        this.innerText = "EN";
-        headerText.innerText = "Trwają prace nad nową stroną";
-        sidebarKontakt.innerText = "Kontakt";
-    }
-});
+const enBtn = document.getElementById('language-toggle2en');
+if (enBtn) {
+    enBtn.onclick = function() {
+        window.location.href = 'en.html';
+    };
+}
+
+const plBtn = document.getElementById('language-toggle2pl');
+if (plBtn) {
+    plBtn.onclick = function() {
+        window.location.href = 'index.html';
+    };
+}
