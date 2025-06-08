@@ -5,7 +5,9 @@ footer {
     padding: 5px;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    right: 0;
+    left: 0;
+    width: auto;
     font-size: 10px;
     z-index: 1000;
     display: flex;
