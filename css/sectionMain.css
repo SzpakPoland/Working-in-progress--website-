@@ -11,6 +11,12 @@ main article {
     margin-inline-start: 2%;
     margin-left: 2%;
 }
+
+aside.sidebar {
+    padding-right: 25px;
+    padding-left: 16px;
+}
+
 p {
     margin: 10px 0;
     line-height: 1.5;
