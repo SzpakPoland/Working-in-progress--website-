@@ -8,6 +8,13 @@ main article {
     color: rgb(160, 157, 151);
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    margin-inline-start: 2%;
+    margin-left: 2%;
+}
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+    text-align: center;
 }
 
 .cloud-image {
