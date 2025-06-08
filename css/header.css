@@ -26,13 +26,34 @@ button {
     cursor: pointer;
     background-color: transparent; /* Przezroczyste tło */
     color: white; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#language-toggle2en:hover {
+    background-color: #3e434d; 
+    color: white; 
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #language-toggle2pl {
-    width: 50px; /* Ustalona szerokość */
+    width: 50px; 
     height: 30px;
     border: none;
     cursor: pointer;
     background-color: transparent; /* Przezroczyste tło */
     color: white;
+     align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#language-toggle2pl:hover {
+    background-color: #3e434d; 
+    color: white; 
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }

@@ -18,5 +18,5 @@ main article {
     justify-content: center;
     align-items: center;
     margin: 50px auto;
-    filter: brightness(0.4);
+    filter: brightness(0.25);
 }
